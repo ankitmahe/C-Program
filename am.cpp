@@ -2,14 +2,16 @@
 using namespace std;
 int main()
 {
-	int i=1,r,n;
-	cout<<"enter any number";
+	int n;
+	cout<<"enter any value";
 	cin>>n;
-	while(i<=10)
+	if(n%2==0)
 	{
-		r=n*i;
-		i++;
-		cout<<r<<"\n";
+		cout<<"Number is Even";
+	}
+	else
+	{
+		cout<<"Number is odd";
 	}
 	return 0;
 }
